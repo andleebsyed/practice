@@ -1,0 +1,111 @@
+.container-fluid{
+    /* will move according to content .. no limitations */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    }
+    
+    .container-center{
+        /* for centering a div horizontally we need to use max-width and margin to auto*/
+        max-width: 600px;
+        margin: auto;
+        padding-inline-start: 0px;
+    }
+
+    .box-model{
+     
+        /* text-align: center; */
+        padding: 1rem;
+        border: 2px solid green;
+        max-width: 600px;
+        margin: 0 auto;
+        
+    }
+/* li to apply css property to li elements which are inside ul */
+    .list-unordered li{
+        list-style: none;
+        display : inline-block;
+        text-decoration: none;
+        text-align: right;
+    }
+
+
+    .link-primary{
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: 1rem;
+        color: black;
+        /* margin: 1rem; */
+        background-color: purple;
+
+    }
+
+
+    .link-secondary{
+        text-decoration: none;
+        padding: 1rem;
+        border-radius : 1rem;
+        border: 2px solid green;
+        margin: 1rem;
+        color: black;
+        /* background-color: green; */
+    }
+
+    .navigation{
+        /* text-decoration: none; */
+        padding: 1rem;
+        border: 10px solid  green;
+        margin-bottom: 2rem;
+        border-radius: 25px;
+        background-color: chocolate;
+    }
+
+
+    .navigation ul{
+        text-align: right;
+    }
+  
+    .navigation ul  li{
+        text-decoration: none;
+        display: inline;
+
+    }
+    .navigation ul li a{
+        text-decoration: none;
+        font-weight: bold;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: grey;
+    }
+
+    .links-nav{
+        margin-bottom: 3rem;
+    }
+
+    .offwhite-section{
+        background-color: lightgray;
+        padding: 1rem;
+
+    }
+
+    .footer{
+        text-align: center;
+        background-color: hotpink;
+        border-top-right-radius: 5px;
+    }
+    .footer ul li{
+        display: inline-block;
+        padding: 1rem;
+    }
+    .footer ul li a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+    .footer-list li{
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        padding: 1rem;
+    }
